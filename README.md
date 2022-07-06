@@ -28,3 +28,11 @@ pip3 install -r requirements.txt
 if your pip points to an existing Python2 environment.
 
 ## Running fasta_to_pca with sample data
+
+To test-run fasta_to_pca with sample data, you have to create a directory named fastas in your working directory and place the example.fasta in it.
+Then you test-run the programm:
+```
+python3 seq.py -k 3
+```
+the result should look like 
+![alt text](https://github.com/fmolls/bioinf_projekt_malewins/edit/main/example.png?raw=true)
