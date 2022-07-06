@@ -31,8 +31,21 @@ if your pip points to an existing Python2 environment.
 
 To test-run fasta_to_pca with sample data, you have to create a directory named fastas in your working directory and place the example.fasta in it.
 Then you test-run the programm:
+
 ```
 python3 seq.py -k 3
 ```
 the result should look like 
-![alt text](https://github.com/fmolls/bioinf_projekt_malewins/edit/main/example.png?raw=true)
+
+![example](example.png)
+
+## Running fasta_to_pca
+
+To run fasta_to_pca, you have to create a fastas directory in your working directory. Now you have to place every fasta-data you want to compare in this directory. Now you have to choose the number of k-mers and run this command in your working directory:
+
+```
+python3 seq.py -k 3
+```
+
+In this example we choose the k-mer number 3. After compiling a png with the pca of your fastas should pop up.
+
